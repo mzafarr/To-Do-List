@@ -1,0 +1,74 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    color: white;
+
+}
+
+#header {
+    width: 100%;
+    text-align: center;
+    background-color: hsla(223, 85%, 18%, 0.666);
+    padding: 12px;
+    margin-bottom: 35px;
+}
+
+#new-task {
+    background-color: hsla(224, 33%, 22%, 0.666);
+}
+
+#new-task-btn {
+    background-color: hsla(223, 69%, 21%, 0.666);
+    border: 1px solid rgb(184, 182, 182);
+}
+
+.fa-check-double {
+    transform: scale(2);
+    padding: 21px;
+}
+
+ul {
+    margin: 4px 0px;
+}
+
+li {
+    border: 1px solid rgb(184, 182, 182);
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin: 7px 0;
+    padding: 7px;
+}
+
+label {
+    margin-left: 6px;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+}
+
+.complete,
+.modify,
+.delete {
+    margin: 0 3px;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: rgb(68, 68, 68);
+    background-color: hsla(223, 85%, 18%, 0.666);
+    width: 100%;
+    font-size: large;
+    padding-top: 5px;
+}
